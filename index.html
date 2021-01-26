@@ -14,6 +14,15 @@
       .presidents .roky {background-color: #D7CCC8;}
       .presidents .cr {background-color: #90CAF9;}
       .presidents .sr {background-color: #F8BBD0;}
+      .presidents thead tr th{
+        border-bottom: 3px solid black;
+      }
+      .presidents tfoot tr th, .presidents tfoot tr td{
+        border-top: 3px solid black;
+      }
+      .presidents{
+        border-spacing: 0;
+      }
     </style>
   </head>
   <body>
@@ -107,8 +116,14 @@
         </tr>
 
       </tbody>
-
+           
       <tfoot>
+        <tr>
+          <th colspan="2">Počet</th>
+          <td>2+3</td>
+          <td>2+5</td>
+          <td></td>  
+        </tr>  
       </tfoot>
     </table>
   </body>
